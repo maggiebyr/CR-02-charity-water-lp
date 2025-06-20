@@ -45,7 +45,7 @@ section {
 .hero {
   position: relative; /* Needed for overlay */
   /* Set a background image that covers the whole section */
-  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80');
+  background-image: url('img/water-drop.jpeg');
   background-size: cover;      /* Make the image cover the whole area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat;
@@ -74,6 +74,18 @@ section {
   font-size: 1.2em;
   margin-top: 0;
   text-shadow: 0 1px 4px rgba(0,0,0,0.12);
+}
+
+/* Logo Section Styles */
+.logo-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: white;
+}
+
+.charity-logo {
+  max-width: 200px;
+  height: auto;
 }
 
 /* Story Section Styles */
